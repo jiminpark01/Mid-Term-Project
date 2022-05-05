@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+    padding-left: 0px;
+ }
+ol.mylist li {
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+}
+ol.mylist li:last-child {
+    border-bottom: 0px;
+}
+ol.mylist li:before {
+    content: ">";
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px 6px 0px;
+}
+table {
+    width: 1100px;
+    table-layout: fixed;
+}
